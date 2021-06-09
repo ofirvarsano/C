@@ -1,0 +1,13 @@
+#ifndef _LISTERROR_H_
+#define _LISTERROR_H_
+
+typedef enum
+{
+ERR_OK =0,
+ERR_NOT_INITIALIZED,
+ERR_UNDERFLOW,
+ERR_OVERFLOW,
+ERR_ALLOCATION_FAIL
+} ADTErr;
+
+#endif
