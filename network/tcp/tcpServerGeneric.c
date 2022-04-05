@@ -185,7 +185,7 @@ int CheckCurrentClient(int _clientSock)
 {
     int read_byte, sent_byte;
     char buffer[5000];
-    char *str = "Hi, you were connected to Sivan's server!";
+    char *str = "Hi, you were connected to Ofir's server!";
     int dataLen = strlen(str);
 
     read_byte = recv(_clientSock, buffer, sizeof(buffer), 0);
