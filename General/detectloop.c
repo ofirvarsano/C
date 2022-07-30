@@ -62,6 +62,11 @@ int hasLoop(struct Node* list)
         printf("Has a Loop \n\n");
     else
         printf("No Loop \n\n");
+
+    free(one);
+    free(two);
+    free(three);
+    free(four);
         
     return 0;
 }
